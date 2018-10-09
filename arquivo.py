@@ -1,9 +1,9 @@
-#!/usr/bin/env python2
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Oct  2 08:45:29 2018
+#1. primeira ação é explorar os dados da base de dados. Quais dados são?
+from sklearn.datasets import load_boston
 
-@author: daniel
-"""
+boston = load_boston()
+#itens da base
+boston.keys()
 
-print ("Hello World")
+print(boston.DESCR)
+
